@@ -1,0 +1,23 @@
+ngb-carousel{
+	width: 100%;
+	max-width: 600px;
+}
+
+img {
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+	border-radius: 10px;
+}
+
+.carousel-inner{
+	width: 100rem !important;
+}
+
+@media (max-width: 600px) {
+
+	img{
+		width: 100% !important;
+	}
+}
